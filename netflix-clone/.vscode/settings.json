@@ -9,5 +9,17 @@
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "css.validate": false,
+  "editor.colorDecorators": true,
+  "tailwindCSS.experimental.classRegex": [
+    ["css`([^`]*)`", "[a-zA-Z0-9-]+"],
+    ["styled.[a-zA-Z0-9]+`([^`]*)`", "[a-zA-Z0-9-]+"]
+  ]
 } 
